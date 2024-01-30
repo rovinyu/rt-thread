@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<configuration>
+  <physical_partition>
+	<partition label="reserve" filename="" type="A053AA7F-40B8-4B1C-BA08-2F68AC71A4F4" start_addr="17" size_in_kb="239" sparse="false"/>
+	<partition label="bl2_a" filename="bl2.bin" type="A053AA7F-40B8-4B1C-BA08-2F68AC71A4F4" start_addr="256" size_in_kb="512" sparse="false"/>
+	<partition label="bl31_a" filename="bl31.bin" type="A053AA7F-40B8-4B1C-BA08-2F68AC71A4F4" start_addr="768" size_in_kb="512" sparse="false"/>
+	<partition label="tos_a" filename="tos.bin" type="A053AA7F-40B8-4B1C-BA08-2F68AC71A4F4" start_addr="1280" size_in_kb="1024" sparse="false"/>
+	<partition label="uboot_a" filename="u-boot.bin" type="400FFDCD-22E0-47E7-9A23-F16ED9382388" start_addr="2304" size_in_kb="1024" sparse="false"/>
+	<partition label="scp_a" filename="scp.img" type="098DF793-D712-413D-9D4E-89D711772228" start_addr="3328" size_in_kb="256" sparse="false"/>
+	<partition label="ddr" filename="ddr.bin" type="20A0C19C-286A-42FA-9CE7-F64C3226A794" start_addr="3584" size_in_kb="1024" sparse="false"/>
+	<partition label="nv" filename="nv.bin" type="20A0C19C-286A-42FA-9CE7-F64C3226A794" start_addr="4608" size_in_kb="512" sparse="false"/>
+	<partition label="misc" filename="misc.bin" type="20117f86-E985-4357-B9EE-374BC1D8487D" start_addr="5120" size_in_kb="256" sparse="false"/>
+	<partition label="boot_a" filename="boot.img" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" start_addr="5376" size_in_kb="32768" sparse="false"/>
+	<partition label="bl2_b" filename="bl2.bin" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" start_addr="38144" size_in_kb="512" sparse="false"/>
+	<partition label="bl31_b" filename="bl31.bin" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" start_addr="38656‬" size_in_kb="512" sparse="false"/>
+	<partition label="tos_b" filename="tos.bin" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" start_addr="39168‬" size_in_kb="1024" sparse="false"/>
+	<partition label="scp_b" filename="scp.img" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" start_addr="40192" size_in_kb="256" sparse="false"/>
+	<partition label="uboot_b" filename="uboot.bin" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" start_addr="40448‬" size_in_kb="1024" sparse="false"/>
+	<partition label="boot_b" filename="boot.img" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" start_addr="41472‬" size_in_kb="32768" sparse="false"/>
+	<partition label="logo" filename="logo.bin" type="20117f86-E985-4357-B9EE-374BC1D8487D" start_addr="74240‬" size_in_kb="1024" sparse="false"/>
+	<partition label="fastboot_logo" filename="fastboot.bin" type="20117f86-E985-4357-B9EE-374BC1D8487D" start_addr="75264‬" size_in_kb="1024" sparse="false"/>
+	<partition label="otp" filename="" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" start_addr="76288‬" size_in_kb="256" sparse="false"/>
+	<partition label="system" filename="system.img" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" start_addr="76544‬" size_in_kb="204800" sparse="false"/>
+	<partition label="vendor" filename="vendor.img" type="7db6ac55-ecb5-4e02-80da-4d335b973332" start_addr="281344" size_in_kb="2048" sparse="false"/>
+	<partition label="ai" filename="algos.img" type="7db6ac55-ecb5-4e02-80da-4d335b973332" start_addr="283392‬" size_in_kb="122880" sparse="false"/>
+	<partition label="userdata" filename="userdata.img" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" start_addr="406272‬" size_in_kb="8192" sparse="false"/>
+  </physical_partition>
+</configuration>
